@@ -1,0 +1,163 @@
+.clouds {
+  height: 970px;
+  width: 1880px;
+}
+
+.main {
+  display: flex;
+  margin: 0;
+  position: relative;
+  flex-direction: column;
+}
+ 
+body {
+  margin: 0;
+  font-family: Roboto, arial;
+}
+
+.my-name {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 500;
+  color: rgb(213, 212, 221);
+  top: 200px;
+  left: 660px;
+}
+
+.department {
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  color: rgb(213, 212, 221);
+  left: 730px;
+  top: 310px;
+}
+
+.instagram {
+  position: absolute;
+  width: 10px;
+  left: 950px;
+  top: 370px;
+}
+
+.linkedin {
+  position: absolute;
+  width: 50px;
+  left: 880px;
+  top: 370px;
+}
+
+.linkedin-icon {
+  width: 50px;
+}
+
+.instagram-icon {
+  width: 50px;
+  border-radius: 25px;
+}
+
+.about-me {
+  position: absolute;
+  color: rgb(213, 212, 221);
+  font-size: 40px;
+  font-weight: 500;
+  left: 300px;
+  bottom: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.instagram-icon:hover, .linkedin-icon:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.info {
+  position: absolute;
+  color: rgb(213, 212, 221);
+  font-size: 27px;
+  width: 480px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 6px 6px 6px 10px;
+  left: 300px;
+  bottom: 230px;
+  display: flex;
+  font-weight: 500;
+}
+
+.more-info {
+  position: absolute;
+  color: rgb(213, 212, 221);
+  font-family: 500;
+  font-size: 25px;
+  border-radius: 10px;
+  height: 200px;
+  padding: 8px 20px 8px 6px;
+  right: 720px;
+  bottom: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more-info-2 {
+  position: absolute;
+  color: rgb(213, 212, 221);
+  font-family: 500;
+  font-size: 25px;
+  border-radius: 10px;
+  height: 200px;
+  padding: 8px 8px 8px 20px;
+  right: 370px;
+  bottom: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.translate {
+  position: absolute;
+}
+
+.translate-button {
+  color: rgb(213, 212, 221);
+  background-color: rgb(68, 68, 90);
+  font-size: 18px;
+  padding: 4px 7px 4px 6px;
+}
+
+.translate-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.first-column {
+  display: flex;
+  flex-direction: column;
+} 
+
+.second-column {
+  display: flex;
+}
+
+.first-column-inside-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-column-inside-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.age, 
+.name-again,
+.department-again,
+.e-mail,
+.nam-nam,
+.age-age,
+.dep-dep,
+.em-em {
+  font-weight: 500;
+}
